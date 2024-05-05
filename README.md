@@ -1,3 +1,3 @@
-# www.stilry.com
+# Website Repo (stilry.com)
 ## Links
-<a href="twitch.tv/stilry">test<a href>
+<b><a href="twitch.tv/stilry">Twitch<a href></b>
