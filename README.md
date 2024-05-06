@@ -1,6 +1,7 @@
 # Website Repo (stilry.com)
 ## Links
-<i><b><a href="twitch.tv/stilry">Twitch<a href></b></i>
-<i><b><a href="youtube.com/@Stilry">YouTube<a href></b></i>
-<i><b><a href="instagram.com/stilryyt">Instagram<a href></b></i>
-<i><b><a href="twitter.com/stilryyt">X/Twitter<a href></b></i>
+<b><i><a href="redirects/x.html"><img src="images/rdrct_img/xlogo.png"></a></b></i>
+<b><i><a href="redirects/youtube.html"><img src="images/rdrct_img/youtubelogo.png"></a></b></i>
+<b><i><a href="redirects/instagram.html"><img src="images/rdrct_img/instagramlogo.png"></a></b></i>
+<b><i><a href="redirects/twitch.html"><img src="images/rdrct_img/twitchlogo.png"></a></b></i>
+<b><i><a href="redirects/linkinbio.html"><img src="images/rdrct_img/linkinbiologo.png"></a></b></i>
