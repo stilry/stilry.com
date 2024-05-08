@@ -1,4 +1,5 @@
 <?php
+$email = "stilry@icloud.com"
 // The message
 $message = "Line 1\nLine 2\nLine 3";
 
@@ -6,5 +7,5 @@ $message = "Line 1\nLine 2\nLine 3";
 $message = wordwrap($message, 70);
 
 // Send
-mail('stilry@icloud.com', 'My Subject', $message);
+mail($email, 'My Subject', $message);
 ?> 
