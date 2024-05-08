@@ -1,22 +1,10 @@
-<form action="" method="post">
-    <input type="submit" value="Send details to embassy" />
-    <input type="hidden" name="button_pressed" value="1" />
-</form>
-
 <?php
+// The message
+$message = "Line 1\nLine 2\nLine 3";
 
-if(isset($_POST['button_pressed']))
-{
-    $to      = 'nobody@example.com';
-    $subject = 'the subject';
-    $message = 'hello';
-    $headers = 'From: webmaster@example.com' . "\r\n" .
-        'Reply-To: webmaster@example.com' . "\r\n" .
-        'X-Mailer: PHP/' . phpversion();
+// In case any of our lines are larger than 70 characters, we should use wordwrap()
+$message = wordwrap($message, 70);
 
-    mail($to, $subject, $message, $headers);
-
-    echo 'Email Sent.';
-}
-
-?>
+// Send
+mail('stilry@icloud.com', 'My Subject', $message);
+?> 
