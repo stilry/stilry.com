@@ -168,3 +168,22 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px; /* Adjust the width as needed */
 }
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: white;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
