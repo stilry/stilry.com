@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <title>Home | Stilry</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    </head>
+<style>
+    .text {
+        color: white;
+        font-family:'Poppins'
+    }
+    .link {
+        color: white !important;
+        text-decoration: none !important;
+        font-family:'Poppins'
+    }
+    .link:hover {
+        color: white !important;
+        text-decoration: underline !important;
+        font-family:'Poppins'
+    }
+    .footer {
+        background-color: #15202b !important;
+        width: auto;
+    }
+</style>
+    <body>
+        <div class="topnav">
+            <div class="topnav_img">
+                <div class="footer">
+                    <img src="/images/favicon.ico" alt="Site logo" width="50" height="auto">
+                    <a href="redirects/x.html"><img src="images/rdrct_img/xlogo.png" width="50" height="auto"></a>
+                    <a href="redirects/youtube.html"><img src="images/rdrct_img/youtubelogo.png" width="50" height="auto"></a>
+                    <a href="redirects/instagram.html"><img src="images/rdrct_img/instagramlogo.png" width="50" height="auto"></a>
+                    <a href="redirects/twitch.html"><img src="images/rdrct_img/twitchlogo.png" width="50" height="auto"></a>
+                    <a href="redirects/linkinbio.html"><img src="images/rdrct_img/linkinbiologo.png" width="50" height="auto"></a>
+                    <a href="redirects/reddit.html"><img src="images/rdrct_img/redditlogo.png" width="50" height="auto"></a>
+                </div>
+            </div>
+          </div>
+        <body style="background-image: url('images/wallpaper.png');">
+        <b><h1 class="text" style="font-family:'Poppins'">Welcome!</h1></b>
+        <h2 class="text" style="font-family:'Poppins'">This site will be used for my content creator purposes.</h2>
+        <i><h2 class="text" style="font-family:'Poppins'">Examples being links, <a href="/Twitch/status.html" class="link">on-site live viewer</a> and more.</h2></i>
+        <a href="Twitch/chat.html" class="link" style="font-family:'Poppins'">Live Chat</a>
+    </body>
+        <footer class="footer">
+            <a href="redirects/youtube.html" class="link">YouTube</a>
+            <br>
+            <a href="redirects/twitch.html" class="link">Twitch</a>
+            <br>
+            <a href="redirects/instagram.html" class="link">Instagram</a>
+            <br>
+            <a href="redirects/reddit.html" class="link">Reddit</a>
+            <br>
+            <a href="redirects/x.html" class="link">Twitter</a>
+            <br>
+            <a href="mailto:web@stilry.com?subject=Website Support" class="link">Contact</a>
+            <br>
+            <br>
+            <i><p class="text">Copyright © 2024 Stilry</p></i>
+        </footer>
+</html>
