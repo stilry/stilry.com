@@ -178,6 +178,7 @@ a:visited {
 
 a:hover {
   color: white;
+    text-decoration: underline;
 }
 
 a:active {
@@ -186,4 +187,20 @@ a:active {
 
 a:link, a:visited {
   text-decoration: none;
+}
+
+h1 {
+    font-family: Poppins;
+    color: white !important;
+    text-align: center;
+    font-size: 80;
+    font-weight: 700 !important;
+}
+
+.wikiheading {
+    font-family: Poppins;
+    color: white !important;
+    text-align: left;
+    font-size: 40;
+    font-weight: 700 !important;
 }
