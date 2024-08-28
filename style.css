@@ -204,3 +204,8 @@ h1 {
     font-size: 40;
     font-weight: 700 !important;
 }
+
+body {
+    font-family: Poppins;
+    color: white;
+}
