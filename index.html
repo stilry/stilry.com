@@ -12,15 +12,31 @@
         color: white;
         font-family: 'Poppins';
     }
-    a {
-        color: white !important;
-        text-decoration: none !important;
-        font-family: 'Poppins';
-    }
-    a:hover {
-        color: white !important;
-        text-decoration: underline !important;
-    }
+a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.2em;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: transform 0.3s ease;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+
+a:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
     body {
         margin: 0;
         display: flex;
