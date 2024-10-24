@@ -37,15 +37,15 @@ a:hover::before {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
-    body {
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-        background-image: url('images/wallpaper.png');
-        background-size: cover;
-        background-position: center;
-    }
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('images/wallpaper.png');
+    background-size: cover;
+    background-position: center;
+}
     footer {
         background-color: rgba(0, 0, 0, 0.25) !important;
         padding: 10px;
@@ -56,19 +56,22 @@ a:hover::before {
         height: 180px;
         text-align: center;
     }
-    .main-content {
-        flex-grow: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    .text-container {
-        background-color: rgba(0, 0, 0, 0.5);
-        backdrop-filter: blur(10px);
-        padding: 20px;
-        border-radius: 50px;
-    }
+
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.text-container {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 50px;
+}
 </style>
     <body>
         <div class="topnav">
